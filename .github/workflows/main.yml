@@ -1,7 +1,7 @@
-name: Ubuntu
-on:
-  watch:
-    types: started
+
+name: CI
+on: [push]
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
